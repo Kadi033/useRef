@@ -1,0 +1,29 @@
+.kd {
+  height: 50%;
+}
+input {
+  width: 766px;
+}
+.burger {
+  display: none;
+  padding-right: 5px;
+  height: 30px;
+  cursor: pointer;
+}
+.none {
+  display: flex;
+}
+@media only screen and (max-width: 790px) {
+  input {
+    width: 368px;
+  }
+  .kd {
+    height: auto;
+  }
+  .burger {
+    display: block;
+  }
+  .none {
+    display: none;
+  }
+}
